@@ -19,7 +19,7 @@ int main()
         }
         else
         {
-            cout << "Bok musi byc wiekszy od zera!" << endl;
+            cout << "Bok musi byc wiekszy od zera" << endl;
         }
 
         cout << "Jesli chcesz powtorzyc program, nacisnij t (tak): ";
