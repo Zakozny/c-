@@ -1,19 +1,14 @@
-#include <cstdlib>
-#include <iostream>
+#include <cstdlib> 
+#include <iostream> 
+#include <stdio.h> 
+#include <conio.h> 
 using namespace std;
 int main(int argc, char *argv[])
 {
-float a, sigma=0; 
- for (;;) // nieskoñczona pêtla
- { 
- printf("\n Podaj  miesi¹c twojego urodzenia\n 	"); 
- scanf("%f", &a); 
-  if (a>0) continue;
- if (a==0) break;  
- sigma+=a; // inaczej sigma = sigma + a;
- printf("\n SUMA CZESCIOWA: %f",sigma); 
- } 
- printf("Nastapil BREAK \n"); 
+	int miesi¹c;
+	cost <<"podaj-miesi¹c urodzenia"
+	cin >> miesi¹c;
+	for(int i = miesiac+ (miesiac% 2) ; i <= miesiac +30;i+2 ) 
  system("PAUSE");
  return EXIT_SUCCESS;
 }
