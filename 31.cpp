@@ -8,7 +8,8 @@ float a, sigma=0;
  { 
  printf("\n Podaj liczbe do sumowania\n"); 
  scanf("%f", &a); 
- if (a==0) break; 
+  if (a<0) continue;
+ if (a== 0) break; 
  sigma+=a; // inaczej sigma = sigma + a;
  printf("\n SUMA CZESCIOWA: %f",sigma); 
  } 
